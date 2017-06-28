@@ -1,0 +1,38 @@
+{
+  "name": "KSYMediaEditorKit",
+  "module_name": "KSYMediaEditorKit",
+  "version": "0.1.2",
+  "summary": "ksyun iOS mediaeditor sdk",
+  "description": "* ksyun mediaeditor sdk",
+  "homepage": "http://v.ksyun.com/doc.html",
+  "license": {
+    "type": "Proprietary",
+    "text": "      Copyright 2015 kingsoft Ltd. All rights reserved.\n"
+  },
+  "authors": {
+    "Noiled": "Noiled@163.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "git@newgit.op.ksyun.com:sdk/KSYShortVideoiOS.git",
+    "tag": "0.1.2"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC -all_load"
+  },
+  "requires_arc": true,
+  "default_subspecs": "KSYMediaEditorKit",
+  "subspecs": [
+    {
+      "name": "KSYMediaEditorKit",
+      "source_files": "include/libKSYMediaEditorKit/*.h",
+      "vendored_libraries": [
+        "libs/liblibKSYMediaEditorKit.a",
+        "libKs3SDK.a",
+        "libGPUImage.a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_iOSProdect {
+  umbrella header "Pods-iOSProdect-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,77 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - GPUImage (0.1.7)
+  - Ks3SDK (1.7.2)
+  - KSYAudioPlotView (1.0.2)
+  - KSYMediaEditorKit (0.1.2):
+    - KSYMediaEditorKit/KSYMediaEditorKit (= 0.1.2)
+  - KSYMediaEditorKit/KSYMediaEditorKit (0.1.2)
+  - libksygpulive (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+    - libksygpulive/libksygpulive_265 (= 2.3.0)
+  - libksygpulive/base (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/gpufilter (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/libksygpulive_265 (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+    - libksygpulive/base
+    - libksygpulive/gpufilter
+    - libksygpulive/mediacodec
+    - libksygpulive/mediacore_enc_265
+    - libksygpulive/mediacore_enc_base
+    - libksygpulive/streamerbase
+    - libksygpulive/streamerengine
+    - libksygpulive/yuv
+  - libksygpulive/mediacodec (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/mediacore_enc_265 (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/mediacore_enc_base (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/streamerbase (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/streamerengine (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - libksygpulive/yuv (2.3.0):
+    - GPUImage
+    - Ks3SDK (~> 1.7.2)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0)
+  - KSYAudioPlotView
+  - KSYMediaEditorKit (from `./prebuilt`)
+  - libksygpulive (from `./prebuilt`)
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  KSYMediaEditorKit:
+    :path: "./prebuilt"
+  libksygpulive:
+    :path: "./prebuilt"
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Ks3SDK: 04460cc317225ee7085ba598de36062bb342a508
+  KSYAudioPlotView: 4213cdf6dc29a3e16dbdf1d154c91503b94a2222
+  KSYMediaEditorKit: 553c49b46034f22369c3169af57588e020bee4e6
+  libksygpulive: c920012d7bff10fc965a516f9bad71a7a001c11d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: aaf7fc878919686029274a28f5aeb176acf481cb
+
+COCOAPODS: 1.2.1

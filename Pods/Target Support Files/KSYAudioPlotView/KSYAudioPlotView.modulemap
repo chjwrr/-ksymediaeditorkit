@@ -1,0 +1,6 @@
+framework module KSYAudioPlotView {
+  umbrella header "KSYAudioPlotView-umbrella.h"
+
+  export *
+  module * { export * }
+}
